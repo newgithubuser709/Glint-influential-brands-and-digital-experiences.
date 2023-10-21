@@ -1,0 +1,38 @@
+.Back_To_Top {
+    right: 50px;
+    position: fixed;
+    bottom: 50px;
+    z-index: 3;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity ease 0.5s, visibility linear 0.5s, transform ease-in-out 0.7s;
+    transform: translateY(45px);
+    visibility: visible;
+}
+
+.Back_To_Top a {
+    color: rgb(253, 253, 253);
+    background-color: rgb(0, 0, 0);
+    padding: 15px 13px 8px 13px;
+    display: inline-block;
+}
+
+.Back_To_Top i {
+    transition: ease 0.7s;
+}
+
+
+/* script class  */
+
+.Back_To_Top_SCRIPT {
+    opacity: 100 !important;
+    visibility: visible !important;
+    transform: translateY(0) !important;
+}
+
+
+/* for i  */
+
+.Back_To_Top_hover_SCRIPT i {
+    transform: translateY(-10px);
+}

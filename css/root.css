@@ -1,0 +1,171 @@
+:root {
+    --picture-overlay: rgba(0, 0, 0, 0.747);
+    --bg-overlay: rgba(0, 0, 0, 0.612);
+    --green: rgb(23, 167, 23);
+    --section-green: rgb(53, 184, 77);
+    --gray: rgba(0, 0, 0, 0.737);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+li {
+    list-style: none;
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 25px;
+}
+
+
+/* heading html  ---
+
+    <div class="section-heading">
+        <p>HELLO THERE</p>
+        <h1>We Are Glint</h1>
+     </div> 
+*/
+
+
+/*   heading css  ---
+
+     for-font-size-normal <<--class-- for normal font-size --(paste on H1 element)--
+     for-font-size-small <<--class-- for small font-size --(paste on H1 element)--
+     white-hr <<--class-- for white hr in heading section  --(paste on H1 element)--
+     black-hr <<--class-- for black hr in heading section  --(paste on H1 element)--
+     white-for-heading  <<--class-- for give white color to element --(paste on any)--
+     black-for-heading  <<--class-- for give black color to element --(paste on any)--
+     green-for-heading  <<--class-- for give green color to element --(paste on any)--
+     
+*/
+
+
+/*  btn html ---
+
+    <div class=" btn">
+         <a href="#">more about us</a>
+    </div>
+
+*/
+
+
+/*   btn css  ---
+
+     white <<--class-- for transparent btn hover on bg white   --(paste with btn class)--
+     green <<--class-- for green btn hover on bg dark green   --(paste with btn class)--
+*/
+
+
+/* 
+    btn  root    ______________________________________________ ______ _____ _____ 
+*/
+
+.section-heading {
+    max-width: 750px;
+    display: grid;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+.section-heading p {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 800;
+}
+
+.section-heading h1 {
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-family: "Cabin", sans-serif;
+    position: relative;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+.for-font-size-normal {
+    font-size: 80px;
+}
+
+.for-font-size-small {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.3;
+    text-transform: none;
+    padding-top: 7px;
+}
+
+.white-hr::after,
+.black-hr::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 1px;
+    width: 100%;
+}
+
+.white-hr::after {
+    background-color: rgba(255, 255, 255, 0.534);
+}
+
+.black-hr::after {
+    background-color: rgba(0, 0, 0, 0.313);
+}
+
+.black-for-heading {
+    color: black;
+}
+
+.white-for-heading {
+    color: white;
+}
+
+.green-for-heading {
+    color: var(--green);
+}
+
+.btn a {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    transition: ease-in 0.3s;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 56px;
+}
+
+.white a {
+    border: 2px solid white;
+    color: white;
+}
+
+.white a:hover {
+    background-color: white;
+    color: black;
+}
+
+.green a {
+    border: 2px solid var(--green);
+    color: white;
+    background-color: var(--green);
+}
+
+.green a:hover {
+    background-color: rgb(0, 111, 0);
+    border: 2px solid rgb(0, 111, 0);
+}

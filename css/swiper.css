@@ -1,0 +1,40 @@
+.clint_img_swiper {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 70px;
+    overflow-x: hidden;
+}
+
+.clint_img_swiper .our_clint_img_swiper_pagination {
+    bottom: 0 !important;
+    top: auto!important;
+}
+
+.our_clint_img_swiper_pagination .swiper-pagination-bullet {
+    background-color: rgb(34, 136, 53) !important;
+    padding: 5px;
+    transition: 0.81s !important;
+}
+
+.testimonial_swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-button-next {
+    color: rgb(34, 136, 53);
+    padding: 7px;
+    width: 21px;
+    height: 60px;
+    background-color: rgba(29, 29, 29, 0.082);
+    box-sizing: content-box;
+}
+
+.swiper-button-prev {
+    color: rgb(34, 136, 53);
+    padding: 7px;
+    width: 21px;
+    height: 60px;
+    background-color: rgba(29, 29, 29, 0.082);
+    box-sizing: content-box;
+}

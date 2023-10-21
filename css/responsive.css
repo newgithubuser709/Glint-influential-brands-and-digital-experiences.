@@ -1,0 +1,452 @@
+/* _________________________________ RESPONSIVE STYLE ___________________________________________  */
+
+
+/*     
+    _____________  -- MAX 991px --  ____________________ ________ ______ ____ ___ _ _  
+*/
+
+@media screen and (max-width:991px) {
+    /* CONTAINER   _____________________ _____________ ______ ___ _ */
+    /* TOGGLER BTN  _____________________ _____________ ______ ___ _ */
+    .toggler_button {
+        right: 25px;
+    }
+    /* TOP BTN   _____________________ _____________ ______ ___ _ */
+    .Back_To_Top {
+        right: 25px !important;
+    }
+    /* HEADER  SECTION  _____________________ _____________ ______ ___ _ */
+    /* HERO SECTION  _____________________ _____________ ______ ___ _ */
+    .hero_container_box_1_text {
+        padding-left: 70px;
+        max-width: 700px;
+    }
+    .hero_container_box_1_text h1 {
+        font-size: 55px;
+    }
+    /*   btn  sect */
+    .hero_container_button_section {
+        padding-bottom: 150px;
+        padding-left: 70px;
+    }
+    .hero_container_scroll_down_button_container {
+        height: 70px;
+    }
+    .hero_container_scroll_down_button {
+        right: 70px;
+    }
+    .hero_container_scroll_down_button_container::before,
+    .hero_container_scroll_down_button_container::after {
+        right: 50px;
+        height: 70px;
+    }
+    /* WE ARE GLINT / ABOUT SECTION   _____________________ _____________ ______ ___ _ */
+    .about-row {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
+        padding: 30px 0;
+    }
+    .about-row-box:nth-child(2)::after {
+        width: 0;
+    }
+    /* WHAT WE DO / SERVICES SECTION  _____________________ _____________ ______ ___ _ */
+    /* RECENT WORK / WORK SECTION   _____________________ _____________ ______ ___ _ */
+    /* OUR CLIENT SECTION   _____________________ _____________ ______ ___ _ */
+    /* CONTACT SECTION   _____________________ _____________ ______ ___ _ */
+    /* FOOTER SECTION  _____________________ _____________ ______ ___ _ */
+}
+
+
+/*
+   _____________  -- MAX 800px --  ____________________ ________ ______ ____ ___ _ _  
+*/
+
+@media screen and (max-width:815px) {
+    .work_img_gallery_text p br {
+        display: block;
+    }
+    /* CONTAINER   _____________________ _____________ ______ ___ _ */
+    /* TOGGLER BTN  _____________________ _____________ ______ ___ _ */
+    /* TOP BTN   _____________________ _____________ ______ ___ _ */
+    /* HEADER  SECTION  _____________________ _____________ ______ ___ _ */
+    /* HERO SECTION  _____________________ _____________ ______ ___ _ */
+    .hero_container_box_1_text {
+        padding-left: 70px;
+        max-width: 620px;
+    }
+    .hero_container_box_1_text p {
+        font-size: 14px;
+    }
+    .hero_container_box_1_text h1 {
+        font-size: 50px;
+    }
+    /* WE ARE GLINT / ABOUT SECTION   _____________________ _____________ ______ ___ _ */
+    /* WHAT WE DO / SERVICES SECTION  _____________________ _____________ ______ ___ _ */
+    .services-grid {
+        grid-template-columns: 1fr;
+        grid-gap: 48px;
+        padding-top: 70px;
+    }
+    /* RECENT WORK / WORK SECTION   _____________________ _____________ ______ ___ _ */
+    /* OUR CLIENT SECTION   _____________________ _____________ ______ ___ _ */
+    .our-clint-swiper-img {
+        margin: auto;
+        justify-content: center;
+    }
+    .our-clint-swiper-img img {
+        width: 100px;
+    }
+    /* CONTACT SECTION   _____________________ _____________ ______ ___ _ */
+    .contact-square {
+        flex-direction: column;
+    }
+    /* FOOTER SECTION  _____________________ _____________ ______ ___ _ */
+}
+
+
+/*
+_____________  -- MAX 768px --  ____________________ ________ ______ ____ ___ _ _  
+*/
+
+@media screen and (max-width:768px) {
+    /* CONTAINER   _____________________ _____________ ______ ___ _ */
+    /* TOGGLER BTN  _____________________ _____________ ______ ___ _ */
+    /* TOP BTN   _____________________ _____________ ______ ___ _ */
+    /* HEADER  SECTION  _____________________ _____________ ______ ___ _ */
+    /* HERO SECTION  _____________________ _____________ ______ ___ _ */
+    .hero_container_box_1_text {
+        padding-left: 70px;
+        max-width: 100%;
+        padding-right: 50px;
+    }
+    .hero_container_box_1_text p {
+        font-size: 14px;
+    }
+    .hero_container_box_1_text h1 {
+        font-size: 50px;
+        font-weight: 500;
+        line-height: 1.5;
+    }
+    /*   btn  sect */
+    .hero_container_button_section {
+        padding-top: 50px;
+        padding-bottom: 150px;
+        flex-direction: column;
+    }
+    .hero_container_button_section_btns {
+        margin-right: 0;
+        margin-top: 15px;
+    }
+    .hero_container_button_section_btns a {
+        justify-content: flex-start !important;
+        width: 300px !important;
+        padding-left: 30px;
+    }
+    /* WE ARE GLINT / ABOUT SECTION   _____________________ _____________ ______ ___ _ */
+    /* WHAT WE DO / SERVICES SECTION  _____________________ _____________ ______ ___ _ */
+    /* RECENT WORK / WORK SECTION   _____________________ _____________ ______ ___ _ */
+    .work-section-content-inner {
+        flex-wrap: wrap;
+        padding-top: 50px;
+    }
+    .work-section-content-col {
+        width: 100%;
+    }
+    .work-section-inner-img {
+        height: 360px!important;
+    }
+    /* OUR CLIENT SECTION   _____________________ _____________ ______ ___ _ */
+    /* CONTACT SECTION   _____________________ _____________ ______ ___ _ */
+    /* FOOTER SECTION  _____________________ _____________ ______ ___ _ */
+    .footer-content {
+        grid-template-columns: 1fr;
+    }
+    .footer-box3 {
+        grid-column-start: auto;
+        grid-column-end: auto;
+        padding-top: 55px;
+    }
+    .footer {
+        padding: 100px 0 18px 0;
+    }
+}
+
+
+/*
+_____________  -- MAX 668px --  ____________________ ________ ______ ____ ___ _ _  
+*/
+
+@media screen and (max-width:668px) {
+    /* CONTAINER   _____________________ _____________ ______ ___ _ */
+    .container {
+        padding: 0 10px !important;
+    }
+    /* TOGGLER BTN  _____________________ _____________ ______ ___ _ */
+    /* TOP BTN   _____________________ _____________ ______ ___ _ */
+    /* HEADER  SECTION  _____________________ _____________ ______ ___ _ */
+    /* HERO SECTION  _____________________ _____________ ______ ___ _ */
+    .hero_container_box_1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .hero_container_box_1_text {
+        padding-left: 70px;
+        max-width: 100%;
+        padding-right: 15px;
+    }
+    .hero_container_box_1_text p {
+        font-size: 14px;
+    }
+    .hero_container_box_1_text h1 {
+        font-size: 41px;
+        font-weight: 500;
+        line-height: 1.5;
+    }
+    .hero_container_box_1_icons_container {
+        display: flex;
+        flex-direction: row;
+        padding-left: 70px;
+        padding-top: 30px;
+    }
+    .hero_container_box_1_icons_container a {
+        margin: 0 25px 0 0;
+    }
+    .hero_container_box_1_icons_container a::after {
+        bottom: -100%;
+        top: auto !important;
+        left: calc(12px + 100%);
+        right: auto !important;
+    }
+    /*   btn  sect */
+    .hero_container_box_2 {
+        justify-content: end;
+    }
+    .hero_container_button_section {
+        padding-top: 50px;
+        padding-bottom: 160px;
+        flex-direction: column;
+        padding-right: 30px;
+    }
+    .hero_container_button_section_btns {
+        margin-right: 0;
+        margin-top: 15px;
+    }
+    .hero_container_button_section_btns a {
+        justify-content: center !important;
+        width: 300px !important;
+        padding-left: 0;
+    }
+    /* WE ARE GLINT / ABOUT SECTION   _____________________ _____________ ______ ___ _ */
+    /* WHAT WE DO / SERVICES SECTION  _____________________ _____________ ______ ___ _ */
+    /* RECENT WORK / WORK SECTION   _____________________ _____________ ______ ___ _ */
+    /* OUR CLIENT SECTION   _____________________ _____________ ______ ___ _ */
+    /* CONTACT SECTION   _____________________ _____________ ______ ___ _ */
+    /* FOOTER SECTION  _____________________ _____________ ______ ___ _ */
+}
+
+
+/*
+_____________  -- MAX 615px --  ____________________ ________ ______ ____ ___ _ _  
+*/
+
+@media screen and (max-width:615px) {
+    .section-heading {
+        max-width: 400px !important;
+    }
+    .section-heading p {
+        font-size: 14px !important;
+        padding-bottom: 7px;
+    }
+    .for-font-size-normal {
+        font-size: 37px !important;
+    }
+    .for-font-size-small {
+        font-size: 25px !important;
+        font-weight: 700 !important;
+    }
+    /* CONTAINER   _____________________ _____________ ______ ___ _ */
+    .toggler_button {
+        right: 10px;
+    }
+    /* TOP BTN   _____________________ _____________ ______ ___ _ */
+    .Back_To_Top {
+        right: 10px !important;
+    }
+    /* HEADER  SECTION  _____________________ _____________ ______ ___ _ */
+    /* HERO SECTION  _____________________ _____________ ______ ___ _ */
+    .hero_container_box_1_text {
+        padding-left: 40px;
+    }
+    .hero_container_box_1_text h1 {
+        font-size: 45px;
+        line-height: 1.5;
+    }
+    .hero_container_box_1_icons_container {
+        padding-left: 40px;
+        padding-top: 42px;
+    }
+    /* WE ARE GLINT / ABOUT SECTION   _____________________ _____________ ______ ___ _ */
+    .about-row {
+        grid-template-columns: 1fr;
+    }
+    .about-row h2 {
+        margin-bottom: 15px;
+        background: linear-gradient(to right, var(--section-green), rgba(255, 255, 255, 0.084), var(--section-green));
+    }
+    .abou-row-box:not(:last-child)::after {
+        display: none;
+    }
+    /* WHAT WE DO / SERVICES SECTION  _____________________ _____________ ______ ___ _ */
+    /* RECENT WORK / WORK SECTION   _____________________ _____________ ______ ___ _ */
+    /* OUR CLIENT SECTION   _____________________ _____________ ______ ___ _ */
+    .testimonial-para p {
+        font-size: 18px;
+        padding: 0 30px;
+    }
+    /* CONTACT SECTION   _____________________ _____________ ______ ___ _ */
+    /* FOOTER SECTION  _____________________ _____________ ______ ___ _ */
+}
+
+
+/*
+_____________  -- MAX 515px --  ____________________ ________ ______ ____ ___ _ _  
+*/
+
+@media screen and (max-width:515px) {
+    /* CONTAINER   _____________________ _____________ ______ ___ _ */
+    /* TOGGLER BTN  _____________________ _____________ ______ ___ _ */
+    .toggler_button {
+        top: 25px;
+    }
+    /* TOP BTN   _____________________ _____________ ______ ___ _ */
+    /* HEADER  SECTION  _____________________ _____________ ______ ___ _ */
+    .logo {
+        margin-left: 25px;
+    }
+    /* HERO SECTION  _____________________ _____________ ______ ___ _ */
+    .hero_container_box_1 {
+        align-items: center;
+        padding: 0;
+    }
+    .hero_container_box_1_text {
+        padding: 0 20px;
+        text-align: center;
+    }
+    .hero_container_box_1_text h1 {
+        font-size: 45px;
+        font-weight: 600;
+        line-height: 1.4;
+    }
+    .hero_container_box_1_icons_container {
+        padding: 35px 20px 0 20px;
+        margin: 0;
+    }
+    .hero_container_box_1_icons_container a {
+        margin: 0 12px;
+    }
+    .hero_container_button_section {
+        padding-top: 35px;
+        align-items: center;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    /* WE ARE GLINT / ABOUT SECTION   _____________________ _____________ ______ ___ _ */
+    /* WHAT WE DO / SERVICES SECTION  _____________________ _____________ ______ ___ _ */
+    /* RECENT WORK / WORK SECTION   _____________________ _____________ ______ ___ _ */
+    /* OUR CLIENT SECTION   _____________________ _____________ ______ ___ _ */
+    .testimonial-para {
+        margin: 0 30px;
+    }
+    /* SWIPER BUTTONS NEXT PREV  */
+    .swiper-button-next,
+    .swiper-button-prev {
+        top: 25%;
+    }
+    /* CONTACT SECTION   _____________________ _____________ ______ ___ _ */
+    /* FOOTER SECTION  _____________________ _____________ ______ ___ _ */
+    .footer-input-icon {
+        height: 40px;
+        font-size: 16px;
+    }
+    .footer-box2 input {
+        height: 40px;
+        max-width: 36vw;
+    }
+    .footer-box2 button {
+        padding: 0 21px;
+        height: 40px;
+        font-size: 12px !important;
+    }
+}
+
+
+/*
+_____________  -- MAX 415px --  ____________________ ________ ______ ____ ___ _ _  
+*/
+
+@media screen and (max-width:415px) {
+    /* Heading   _____________________ _____________ ______ ___ _ */
+    .for-font-size-normal {
+        letter-spacing: 0 !important;
+    }
+    .for-font-size-small {
+        letter-spacing: 0 !important;
+    }
+    /* CONTAINER   _____________________ _____________ ______ ___ _ */
+    /* TOGGLER BTN  _____________________ _____________ ______ ___ _ */
+    /* TOP BTN   _____________________ _____________ ______ ___ _ */
+    /* HEADER  SECTION  _____________________ _____________ ______ ___ _ */
+    /* HERO SECTION  _____________________ _____________ ______ ___ _ */
+    .hero_container_box_1_text p {
+        font-size: 12px;
+    }
+    .hero_container_box_1_text h1 {
+        font-size: 41px;
+        font-weight: 500;
+    }
+    /* btn sect  */
+    .hero_container_button_section_btns a {
+        justify-content: center !important;
+        width: 250px !important;
+        padding-left: 0;
+    }
+    /* WE ARE GLINT / ABOUT SECTION   _____________________ _____________ ______ ___ _ */
+    .about-text p {
+        font-size: 18px;
+        line-height: 2;
+        font-weight: 400;
+    }
+    /* WHAT WE DO / SERVICES SECTION  _____________________ _____________ ______ ___ _ */
+    .service-grid-box {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .service-grid-box-icon {
+        padding-bottom: 16px;
+    }
+    /* RECENT WORK / WORK SECTION   _____________________ _____________ ______ ___ _ */
+    /* OUR CLIENT SECTION   _____________________ _____________ ______ ___ _ */
+    .testimonial-para {
+        margin: 0 15px;
+    }
+    .testimonial-para p {
+        line-height: 1.4;
+    }
+    /* CONTACT SECTION   _____________________ _____________ ______ ___ _ */
+    .contact-info-text-para br {
+        display: block;
+    }
+    .contact-form {
+        padding: 50px 21px;
+    }
+    .contact-form button {
+        margin: 36px 0 0 0;
+    }
+    .contact-info {
+        padding: 40px 21px;
+    }
+    /* FOOTER SECTION  _____________________ _____________ ______ ___ _ */
+}

@@ -1,0 +1,9 @@
+::-webkit-scrollbar {
+    background-color: black;
+    width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--green);
+    border: 1px solid black;
+}
